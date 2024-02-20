@@ -30,27 +30,27 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="user.php">
                     <i class='bx bxs-shopping-bag-alt'></i>
-                    <span class="text">My Store</span>
+                    <span class="text">Users</span>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bxs-doughnut-chart'></i>
-                    <span class="text">Analytics</span>
+                    <span class="text">Products</span>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bxs-message-dots'></i>
-                    <span class="text">Message</span>
+                    <span class="text">Activity</span>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <i class='bx bxs-group'></i>
-                    <span class="text">Team</span>
+                    <span class="text">Report</span>
                 </a>
             </li>
         </ul>
