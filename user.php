@@ -31,9 +31,11 @@ include 'layout/header.php';
                 <table>
                     <thead>
                         <tr>
-                            <th>User</th>
-                            <th>Date Order</th>
-                            <th>Status</th>
+                            <th>Name</th>
+                            <th>Create At</th>
+                            <th>Update At</th>
+                            <th>Level</th>
+                            <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -43,7 +45,10 @@ include 'layout/header.php';
                                 <p>John Doe</p>
                             </td>
                             <td>01-10-2021</td>
-                            <td><span class="status completed">Completed</span></td>
+                            <td>01-10-2021</td>
+                            <td><span class="status completed">Cashier</span></td>
+                            <td><span class="status process">Update</span></td>
+                            
                         </tr>
                         <tr>
                             <td>
@@ -51,7 +56,19 @@ include 'layout/header.php';
                                 <p>John Doe</p>
                             </td>
                             <td>01-10-2021</td>
-                            <td><span class="status pending">Pending</span></td>
+                            <td>01-10-2021</td>
+                            <td><span class="status pending">Admin</span></td>
+                            <td><span class="status process">Update</span></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="img/people.png">
+                                <p>Daffa</p>
+                            </td>
+                            <td>01-10-2021</td>
+                            <td>01-10-2021</td>
+                            <td><span class="status process">Owner</span></td>
+                            <td><span class="status process">Update</span></td>
                         </tr>
                         <tr>
                             <td>
@@ -59,23 +76,9 @@ include 'layout/header.php';
                                 <p>John Doe</p>
                             </td>
                             <td>01-10-2021</td>
-                            <td><span class="status process">Process</span></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="img/people.png">
-                                <p>John Doe</p>
-                            </td>
                             <td>01-10-2021</td>
-                            <td><span class="status pending">Pending</span></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <img src="img/people.png">
-                                <p>John Doe</p>
-                            </td>
-                            <td>01-10-2021</td>
-                            <td><span class="status completed">Completed</span></td>
+                            <td><span class="status pending">Cashier</span></td>
+                            <td><span class="status process">Update</span></td>
                         </tr>
                     </tbody>
                 </table>
